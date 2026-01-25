@@ -1,4 +1,6 @@
 
+bun --bun next build
+
 try {
 
     Push-Location -Path "out"
