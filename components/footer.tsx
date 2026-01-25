@@ -9,7 +9,6 @@ import {
   ArrowRight
 } from "lucide-react";
 import { Button } from "./ui/button";
-import { Separator } from "./ui/separator";
 
 const footerLinks = {
   services: [
@@ -68,9 +67,9 @@ export default function Footer() {
               <input
                 type="email"
                 placeholder="Enter your email"
-                className="px-4 py-3 rounded-lg bg-zinc-800 border border-zinc-700 text-white placeholder:text-zinc-500 focus:outline-none focus:ring-2 focus:ring-green-500 min-w-[250px]"
+                className="px-4 py-3 rounded-lg bg-zinc-800 border border-zinc-700 text-white placeholder:text-zinc-500 focus:outline-none focus:ring-2 focus:ring-green-500 min-w-62.5"
               />
-              <Button className="bg-gradient-to-r from-green-500 to-emerald-600 hover:from-green-600 hover:to-emerald-700">
+              <Button className="bg-linear-to-r from-green-500 to-emerald-600 hover:from-green-600 hover:to-emerald-700">
                 Subscribe
                 <ArrowRight className="ml-2 h-4 w-4" />
               </Button>

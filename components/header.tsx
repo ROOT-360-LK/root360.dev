@@ -1,7 +1,7 @@
 "use client";
 
 import { useState, useEffect } from "react";
-import { Menu, X, ChevronDown } from "lucide-react";
+import { Menu, X } from "lucide-react";
 import { Button } from "./ui/button";
 import {
   NavigationMenu,
@@ -68,7 +68,7 @@ export default function Header() {
                 <NavigationMenuItem>
                   <NavigationMenuTrigger className="bg-transparent">Services</NavigationMenuTrigger>
                   <NavigationMenuContent>
-                    <ul className="grid w-[400px] gap-3 p-4 md:w-[500px] md:grid-cols-2 lg:w-[600px]">
+                    <ul className="grid w-100 gap-3 p-4 md:w-125 md:grid-cols-2 lg:w-150">
                       {services.map((service) => (
                         <li key={service.title}>
                           <NavigationMenuLink asChild>
@@ -91,7 +91,7 @@ export default function Header() {
                 <NavigationMenuItem>
                   <NavigationMenuTrigger className="bg-transparent">Industries</NavigationMenuTrigger>
                   <NavigationMenuContent>
-                    <ul className="grid w-[400px] gap-3 p-4 md:w-[500px] md:grid-cols-2">
+                    <ul className="grid w-[400px] gap-3 p-4 md:w-125 md:grid-cols-2">
                       {industries.map((industry) => (
                         <li key={industry.title}>
                           <NavigationMenuLink asChild>

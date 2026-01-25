@@ -4,7 +4,7 @@ import About from "@/components/about";
 import Services from "@/components/services";
 import Industries from "@/components/industries";
 import WhyChooseUs from "@/components/why-choose-us";
-import TechStack from "@/components/tech-stack";
+import Partners from "@/components/partners";
 import CaseStudies from "@/components/case-studies";
 import Testimonials from "@/components/testimonials";
 import Contact from "@/components/contact";
@@ -32,7 +32,7 @@ export default function Home() {
 
       <Separator className="mx-auto w-11/12" />
 
-      <TechStack />
+      <Partners />
 
       <Separator className="mx-auto w-11/12" />
 

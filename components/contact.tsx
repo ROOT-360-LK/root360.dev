@@ -64,8 +64,8 @@ export default function Contact() {
       } else {
         throw new Error("Failed to submit form");
       }
-    } catch (err) {
-      setError("Something went wrong. Please try again or contact us directly.");
+    } catch (err: unknown) {
+      setError(err instanceof Error ? err.message : "An unknown error occurred");
     } finally {
       setIsSubmitting(false);
     }
@@ -118,7 +118,7 @@ export default function Contact() {
         <div className="grid gap-8 lg:grid-cols-5">
           {/* Contact Information */}
           <div className="lg:col-span-2 space-y-6">
-            <div className="p-6 rounded-2xl bg-gradient-to-br from-green-500 to-emerald-600 text-white">
+            <div className="p-6 rounded-2xl bg-linear-to-br from-green-500 to-emerald-600 text-white">
               <h3 className="text-2xl font-bold mb-4">Contact Information</h3>
               <p className="text-green-100 mb-8">
                 Fill out the form and our team will get back to you within 24 hours.
@@ -302,7 +302,7 @@ export default function Contact() {
                     type="submit"
                     size="lg"
                     disabled={isSubmitting}
-                    className="w-full bg-gradient-to-r from-green-500 to-emerald-600 hover:from-green-600 hover:to-emerald-700"
+                    className="w-full bg-linear-to-r from-green-500 to-emerald-600 hover:from-green-600 hover:to-emerald-700"
                   >
                     {isSubmitting ? (
                       <>
