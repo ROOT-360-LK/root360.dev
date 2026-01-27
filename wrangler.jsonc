@@ -1,6 +1,6 @@
 {
   "$schema": "node_modules/wrangler/config-schema.json",
-  "name": "githubpage",
+  "name": "root360-official",
   "compatibility_date": "2026-01-21",
   "assets": {
     "directory": "./out"
