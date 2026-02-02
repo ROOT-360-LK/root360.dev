@@ -1,5 +1,5 @@
 import { Badge } from "./ui/badge";
-import { Target, Eye, Heart, Award, Users, Globe2, Lightbulb, Shield } from "lucide-react";
+import { Target, Eye, Award, Users, Globe2, Lightbulb, Shield } from "lucide-react";
 
 const values = [
   {

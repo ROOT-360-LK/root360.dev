@@ -348,9 +348,9 @@ export const companyInfo = {
   name: "ROOT 360",
   tagline: "Empowering Digital Transformation",
   description: "Leading software solutions provider specializing in cloud infrastructure, AI/ML, cybersecurity, and enterprise digital transformation.",
-  email: "info@root360.com",
-  phone: "+1 (555) 123-4567",
-  address: "123 Tech Boulevard, Silicon Valley, CA 94025"
+  email: "contact@root360.com",
+  phone: "+94 (70) 388-6215",
+  address: "Colombo, Sri Lanka",
 };
 
 export const testimonials = [

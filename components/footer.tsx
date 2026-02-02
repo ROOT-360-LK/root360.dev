@@ -44,10 +44,10 @@ const footerLinks = {
 };
 
 const socialLinks = [
-  { name: "LinkedIn", icon: Linkedin, href: "https://linkedin.com" },
-  { name: "Twitter", icon: Twitter, href: "https://twitter.com" },
-  { name: "GitHub", icon: Github, href: "https://github.com" },
-  { name: "Facebook", icon: Facebook, href: "https://facebook.com" },
+  { name: "LinkedIn", icon: Linkedin, href: "https://linkedin.com/company/root360" },
+  { name: "Twitter", icon: Twitter, href: "https://twitter.com/root360" },
+  { name: "GitHub", icon: Github, href: "https://github.com/root360lk" },
+  { name: "Facebook", icon: Facebook, href: "https://facebook.com/root360lk" },
 ];
 
 export default function Footer() {
@@ -96,22 +96,22 @@ export default function Footer() {
             {/* Contact Info */}
             <div className="space-y-3">
               <a 
-                href="mailto:info@root360.dev" 
+                href="mailto:contact@root360.dev" 
                 className="flex items-center text-zinc-400 hover:text-green-400 transition-colors"
               >
                 <Mail className="h-4 w-4 mr-3" />
-                info@root360.dev
+                contact@root360.dev
               </a>
               <a 
-                href="tel:+15551234567" 
+                href="tel:+94703886215" 
                 className="flex items-center text-zinc-400 hover:text-green-400 transition-colors"
               >
                 <Phone className="h-4 w-4 mr-3" />
-                +1 (555) 123-4567
+                +94 (70) 388 6215
               </a>
               <div className="flex items-start text-zinc-400">
                 <MapPin className="h-4 w-4 mr-3 mt-0.5 shrink-0" />
-                <span>123 Tech Boulevard<br />Silicon Valley, CA 94025</span>
+                <span>Colombo<br />Sri Lanka</span>
               </div>
             </div>
 

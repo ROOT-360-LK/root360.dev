@@ -20,9 +20,9 @@ export default function CTA() {
               </a>
             </Button>
             <Button size="lg" variant="outline" className="text-lg bg-transparent border-white text-white hover:bg-white hover:text-green-600" asChild>
-              <a href="tel:+15551234567">
+              <a href="tel:+94703886215">
                 <Phone className="mr-2 h-5 w-5" />
-                Schedule a Call
+                Call us Now
               </a>
             </Button>
           </div>
