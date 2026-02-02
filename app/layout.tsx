@@ -25,10 +25,11 @@ const geistMono = Geist_Mono({
 // };
 
 export const metadata: Metadata = {
-  title: {
-    default: siteConfig.name + " | Enterprise Software Solutions & Digital Transformation",
-    template: `%s | ${siteConfig.name}`,
-  },
+  // title: {
+  //   default: siteConfig.name + " | Enterprise Software Solutions",
+  //   template: `%s | ${siteConfig.name}`,
+  // },
+  title: siteConfig.name + " | Enterprise Software Solutions",
   description: siteConfig.description,
   keywords: siteConfig.keywords,
   authors: siteConfig.authors,
