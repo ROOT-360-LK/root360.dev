@@ -53,15 +53,15 @@ export const metadata: Metadata = {
     type: "website",
     locale: siteConfig.locale,
     url: siteConfig.url,
-    siteName: siteConfig.name,
-    title: siteConfig.name + " | Enterprise Software Solutions",
+    siteName: "ROOT 360",
+    title: "ROOT 360 | Enterprise Software Solutions",
     description: "360° Complete Software Solutions for Modern Businesses. Cloud infrastructure, AI/ML, cybersecurity, and digital transformation.",
     images: [
       {
         url: siteConfig.ogImage,
         width: 1200,
         height: 630,
-        alt: siteConfig.name + " - Enterprise Software Solutions",
+        alt: "ROOT 360 - Enterprise Software Solutions",
         type: "image/png",
       },
     ],
