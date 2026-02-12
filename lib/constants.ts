@@ -348,7 +348,7 @@ export const companyInfo = {
   name: "ROOT 360",
   tagline: "Empowering Digital Transformation",
   description: "Leading software solutions provider specializing in cloud infrastructure, AI/ML, cybersecurity, and enterprise digital transformation.",
-  email: "contact@root360.com",
+  email: "info@root360.com",
   phone: "+94 (70) 388-6215",
   address: "Colombo, Sri Lanka",
 };

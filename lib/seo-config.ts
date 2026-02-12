@@ -3,7 +3,7 @@ export const SITE_URL = "https://root360.dev";
 export const siteConfig = {
   name: "ROOT 360™",
   shortName: "ROOT 360",
-  description: "ROOT 360 delivers cutting-edge software solutions including cloud infrastructure, AI/ML, cybersecurity, and digital transformation services for modern businesses worldwide. contact us by email: contact@root360.dev | phone: +94 (70) 388-6215 | whatsapp: +94 (76) 664-3492",
+  description: "ROOT 360 delivers cutting-edge software solutions including cloud infrastructure, AI/ML, cybersecurity, and digital transformation services for modern businesses worldwide. contact us by email: info@root360.dev | phone: +94 (70) 388-6215 | whatsapp: +94 (76) 664-3492",
   url: SITE_URL,
   ogImage: `${SITE_URL}/logo.png`,
   keywords: [
@@ -47,7 +47,7 @@ export const siteConfig = {
   },
   
   contact: {
-    email: "contact@root360.io",
+    email: "info@root360.io",
     phone: "+94 70 388 6215",
     address: {
       street: "Kalubila",

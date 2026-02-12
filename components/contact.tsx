@@ -28,8 +28,8 @@ const contactInfo = [
     {
       icon: Mail,
       title: "Email Us",
-      value: "contact@root360.dev",
-      href: "mailto:contact@root360.dev",
+      value: "info@root360.dev",
+      href: "mailto:info@root360.dev",
     },
     {
       icon: Phone,

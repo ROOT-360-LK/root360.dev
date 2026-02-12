@@ -96,11 +96,11 @@ export default function Footer() {
             {/* Contact Info */}
             <div className="space-y-3">
               <a 
-                href="mailto:contact@root360.dev" 
+                href="mailto:info@root360.dev" 
                 className="flex items-center text-zinc-400 hover:text-green-400 transition-colors"
               >
                 <Mail className="h-4 w-4 mr-3" />
-                contact@root360.dev
+                info@root360.dev
               </a>
               <a 
                 href="tel:+94703886215" 
