@@ -4,9 +4,9 @@ import About from "@/components/about";
 import Services from "@/components/services";
 import Industries from "@/components/industries";
 import WhyChooseUs from "@/components/why-choose-us";
-import Partners from "@/components/partners";
+// import Partners from "@/components/partners";
 import CaseStudies from "@/components/case-studies";
-import Testimonials from "@/components/testimonials";
+// import Testimonials from "@/components/testimonials";
 import Contact from "@/components/contact";
 import CTA from "@/components/cta";
 import Footer from "@/components/footer";
@@ -30,15 +30,15 @@ export default function Home() {
 
       <WhyChooseUs />
 
-      <Separator className="mx-auto w-11/12" />
+      {/* <Separator className="mx-auto w-11/12" />
 
-      <Partners />
+      <Partners /> */}
 
       <Separator className="mx-auto w-11/12" />
 
       <CaseStudies />
 
-      <Testimonials />
+      {/* <Testimonials /> */}
 
       <Contact />
 

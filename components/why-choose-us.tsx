@@ -4,10 +4,8 @@ import {
   HeadphonesIcon, 
   Users, 
   ShieldCheck, 
-  Zap, 
   Award, 
   Globe2, 
-  Clock,
   ArrowRight
 } from "lucide-react";
 import { Button } from "./ui/button";
@@ -17,13 +15,13 @@ const differentiators = [
     icon: Award,
     title: "Proven Expertise",
     description: "15+ years of delivering successful projects across diverse industries with certified professionals.",
-    highlight: "500+ Projects Delivered",
+    highlight: "10+ Projects Delivered",
   },
   {
     icon: Users,
     title: "Dedicated Teams",
     description: "Experienced professionals who become an extension of your team, ensuring seamless collaboration.",
-    highlight: "50+ Expert Team Members",
+    highlight: "10+ Expert Team Members",
   },
   {
     icon: Rocket,
@@ -35,19 +33,19 @@ const differentiators = [
     icon: ShieldCheck,
     title: "Security First",
     description: "Enterprise-grade security with SOC 2 compliance, regular audits, and best-in-class practices.",
-    highlight: "SOC 2 Certified",
+    highlight: "OWASP Standards Compliance",
   },
   {
     icon: HeadphonesIcon,
     title: "24/7 Support",
     description: "Round-the-clock support with dedicated account managers and rapid response times.",
-    highlight: "< 15min Response Time",
+    highlight: "< 1h Response Time",
   },
   {
     icon: Globe2,
     title: "Global Reach",
     description: "Serving clients worldwide with teams across multiple time zones for continuous delivery.",
-    highlight: "Clients in 30+ Countries",
+    highlight: "Clients in 5+ Countries",
   },
 ];
 
@@ -85,7 +83,7 @@ export default function WhyChooseUs() {
               className="group relative p-6 rounded-2xl bg-white dark:bg-zinc-800 shadow-lg border border-zinc-200 dark:border-zinc-700 transition-all hover:shadow-xl hover:-translate-y-1"
             >
               <div className="flex items-start space-x-4">
-                <div className="flex h-14 w-14 shrink-0 items-center justify-center rounded-xl bg-gradient-to-r from-green-500 to-emerald-600">
+                <div className="flex h-14 w-14 shrink-0 items-center justify-center rounded-xl bg-linear-to-r from-green-500 to-emerald-600">
                   <item.icon className="h-7 w-7 text-white" />
                 </div>
                 <div>
@@ -116,12 +114,12 @@ export default function WhyChooseUs() {
 
         <div className="relative">
           {/* Connection Line */}
-          <div className="absolute top-8 left-0 right-0 h-0.5 bg-gradient-to-r from-green-500 to-emerald-600 hidden lg:block" />
+          <div className="absolute top-8 left-0 right-0 h-0.5 bg-linear-to-r from-green-500 to-emerald-600 hidden lg:block" />
           
           <div className="grid grid-cols-2 gap-6 md:grid-cols-3 lg:grid-cols-5">
             {processSteps.map((item, index) => (
               <div key={index} className="relative text-center">
-                <div className="relative z-10 mx-auto mb-4 flex h-16 w-16 items-center justify-center rounded-full bg-gradient-to-r from-green-500 to-emerald-600 text-white font-bold text-xl shadow-lg">
+                <div className="relative z-10 mx-auto mb-4 flex h-16 w-16 items-center justify-center rounded-full bg-linear-to-r from-green-500 to-emerald-600 text-white font-bold text-xl shadow-lg">
                   {item.step}
                 </div>
                 <h4 className="font-semibold text-zinc-900 dark:text-white mb-1">
@@ -139,7 +137,7 @@ export default function WhyChooseUs() {
         <div className="mt-16 text-center">
           <Button 
             size="lg" 
-            className="bg-gradient-to-r from-green-500 to-emerald-600 hover:from-green-600 hover:to-emerald-700 group"
+            className="bg-linear-to-r from-green-500 to-emerald-600 hover:from-green-600 hover:to-emerald-700 group"
             asChild
           >
             <a href="#contact">

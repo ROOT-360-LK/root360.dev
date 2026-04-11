@@ -3,9 +3,9 @@ import { Badge } from "./ui/badge";
 import { Button } from "./ui/button";
 
 const highlights = [
-  "15+ Years of Excellence",
-  "500+ Projects Delivered",
-  "98% Client Satisfaction",
+  "5+ Years of Excellence",
+  "10+ Projects Delivered",
+  "100% Client Satisfaction",
 ];
 
 export default function Hero() {
@@ -39,7 +39,7 @@ export default function Hero() {
           </sup>
         </h1>
 
-        <p className="mx-auto mb-4 max-w-3xl text-xl text-zinc-600 dark:text-zinc-400 md:text-2xl lg:text-3xl font-light">
+        <p className="mx-auto mb-4 max-w-3xl text-xl text-zinc-600 font-semibold dark:text-zinc-400 md:text-2xl lg:text-3xl">
           360° Complete Software Solutions for Modern Businesses
         </p>
 
@@ -82,7 +82,7 @@ export default function Hero() {
         <div className="mt-20 grid grid-cols-2 gap-8 md:grid-cols-4">
           <div className="p-4 rounded-xl bg-white/50 dark:bg-zinc-900/50 backdrop-blur-sm border border-zinc-200/50 dark:border-zinc-800/50">
             <div className="text-3xl font-bold text-green-500 md:text-4xl">
-              500+
+              10+
             </div>
             <div className="text-sm text-zinc-600 dark:text-zinc-400">
               Projects Delivered
@@ -90,7 +90,7 @@ export default function Hero() {
           </div>
           <div className="p-4 rounded-xl bg-white/50 dark:bg-zinc-900/50 backdrop-blur-sm border border-zinc-200/50 dark:border-zinc-800/50">
             <div className="text-3xl font-bold text-green-500 md:text-4xl">
-              98%
+              100%
             </div>
             <div className="text-sm text-zinc-600 dark:text-zinc-400">
               Client Satisfaction
@@ -106,7 +106,7 @@ export default function Hero() {
           </div>
           <div className="p-4 rounded-xl bg-white/50 dark:bg-zinc-900/50 backdrop-blur-sm border border-zinc-200/50 dark:border-zinc-800/50">
             <div className="text-3xl font-bold text-green-500 md:text-4xl">
-              15+
+              5+
             </div>
             <div className="text-sm text-zinc-600 dark:text-zinc-400">
               Years Experience

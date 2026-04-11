@@ -88,7 +88,7 @@ export default function Services() {
                   <ul className="space-y-2 text-sm text-zinc-600 dark:text-zinc-400">
                     <li className="flex items-center">
                       <CheckCircle2 className="mr-2 h-4 w-4 text-green-500" />
-                      React, Next.js, Vue.js
+                      React, Next.js
                     </li>
                     <li className="flex items-center">
                       <CheckCircle2 className="mr-2 h-4 w-4 text-green-500" />

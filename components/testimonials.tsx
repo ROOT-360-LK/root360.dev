@@ -98,7 +98,7 @@ export default function Testimonials() {
                 {/* Author */}
                 <div className="flex items-center space-x-4">
                   <Avatar className="h-12 w-12 border-2 border-green-500">
-                    <AvatarFallback className="bg-gradient-to-r from-green-500 to-emerald-600 text-white font-semibold">
+                    <AvatarFallback className="bg-linear-to-r from-green-500 to-emerald-600 text-white font-semibold">
                       {testimonial.initials}
                     </AvatarFallback>
                   </Avatar>
@@ -117,7 +117,7 @@ export default function Testimonials() {
         </div>
 
         {/* Stats Bar */}
-        <div className="mt-16 grid grid-cols-2 md:grid-cols-4 gap-6 p-8 rounded-2xl bg-gradient-to-r from-green-500 to-emerald-600 text-white">
+        <div className="mt-16 grid grid-cols-2 md:grid-cols-4 gap-6 p-8 rounded-2xl bg-linear-to-r from-green-500 to-emerald-600 text-white">
           <div className="text-center">
             <div className="text-3xl md:text-4xl font-bold mb-1">98%</div>
             <div className="text-green-100 text-sm">Client Satisfaction</div>

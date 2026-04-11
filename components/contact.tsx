@@ -164,7 +164,7 @@ export default function Contact() {
                   <span className="font-medium">Business Hours</span>
                 </div>
                 <p className="text-green-100 text-sm">
-                  Monday - Friday: 9:00 AM - 6:00 PM (EST)
+                  Monday - Friday: 9:00 AM - 6:00 PM (GMT+5:30)
                   <br />
                   Weekend: By appointment only
                 </p>

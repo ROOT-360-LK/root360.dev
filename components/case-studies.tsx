@@ -1,49 +1,49 @@
 import { Badge } from "./ui/badge";
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "./ui/card";
-import { ArrowRight, TrendingUp, Clock, DollarSign, Users, BarChart3, Zap } from "lucide-react";
+import { ArrowRight, TrendingUp, Clock, DollarSign, Users, Zap } from "lucide-react";
 import { Button } from "./ui/button";
 
 const caseStudies = [
   {
     industry: "Healthcare",
-    title: "Digital Transformation for Regional Hospital Network",
-    client: "MedCare Health Systems",
-    description: "Implemented a comprehensive EHR integration and telemedicine platform serving 50+ facilities.",
+    title: "AI Transformation for DNA Councilng",
+    client: "DNA Longevity, UAE",
+    description: "Implemented a comprehensive EHR integration and AI summarizations for counceling and automated meetings scheduling",
     image: "/case-studies/healthcare.jpg",
     results: [
-      { icon: TrendingUp, value: "40%", label: "Efficiency Increase" },
+      { icon: TrendingUp, value: "50%", label: "Efficiency Increase" },
       { icon: Clock, value: "60%", label: "Reduced Wait Times" },
-      { icon: Users, value: "100K+", label: "Patients Served" },
+      { icon: Users, value: "20k+", label: "Patients Served" },
     ],
-    technologies: ["Azure", "React", "Node.js", "FHIR"],
+    technologies: ["Vercel", "React", "NextJs", "PostgreSQL", "Redis", "OpenAI API"],
     color: "from-red-500 to-rose-600",
   },
   {
-    industry: "Financial Services",
-    title: "AI-Powered Fraud Detection System",
-    client: "SecureBank International",
-    description: "Built a real-time fraud detection platform processing millions of transactions daily with 99.9% accuracy.",
-    image: "/case-studies/finance.jpg",
+    industry: "Talent Acquisition",
+    title: "Job Portal & Recruitment Platform",
+    client: "EPR Consultancy",
+    description: "Developed a comprehensive job portal where candidates apply for positions and companies post job openings to find qualified talent seamlessly.",
+    image: "/case-studies/talent.jpg",
     results: [
-      { icon: DollarSign, value: "$50M", label: "Fraud Prevented" },
-      { icon: Zap, value: "< 100ms", label: "Detection Time" },
-      { icon: BarChart3, value: "99.9%", label: "Accuracy Rate" },
+      { icon: Users, value: "15k+", label: "Job Candidates" },
+      { icon: Zap, value: "85%", label: "Placement Rate" },
+      { icon: DollarSign, value: "500+", label: "Active Positions" },
     ],
-    technologies: ["AWS", "Python", "TensorFlow", "Kafka"],
+    technologies: ["React", "Next.js", "Railway", "Postgres", "Onepay"],
     color: "from-blue-500 to-indigo-600",
   },
   {
-    industry: "Retail",
-    title: "Omnichannel E-commerce Platform",
+    industry: "Marketing",
+    title: "ERP System with Facebook Ad Integration",
     client: "GlobalRetail Corp",
-    description: "Developed a unified commerce platform integrating online, mobile, and in-store experiences.",
-    image: "/case-studies/retail.jpg",
+    description: "Developed an integrated ERP system with real-time Facebook ad campaign management and performance analytics.",
+    image: "/case-studies/marketing.jpg",
     results: [
-      { icon: TrendingUp, value: "150%", label: "Revenue Growth" },
-      { icon: Users, value: "5M+", label: "Active Users" },
-      { icon: Clock, value: "3x", label: "Faster Checkout" },
+      { icon: TrendingUp, value: "280%", label: "ROI Improvement" },
+      { icon: Users, value: "500k+", label: "Ad Impressions" },
+      { icon: DollarSign, value: "45%", label: "Cost Reduction" },
     ],
-    technologies: ["Next.js", "Shopify", "Stripe", "Algolia"],
+    technologies: ["React", "Next.js", "Facebook API", "PostgreSQL", "Redis", "Railway"],
     color: "from-purple-500 to-violet-600",
   },
 ];
@@ -83,7 +83,7 @@ export default function CaseStudies() {
               className="group overflow-hidden transition-all hover:shadow-xl hover:-translate-y-1"
             >
               {/* Header with gradient */}
-              <div className={`h-32 bg-gradient-to-r ${study.color} relative`}>
+              <div className={`h-32 bg-linear-to-r ${study.color} relative`}>
                 <div className="absolute inset-0 bg-black/20" />
                 <div className="absolute bottom-4 left-4 right-4">
                   <Badge className="bg-white/20 text-white border-white/30 mb-2">

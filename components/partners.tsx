@@ -73,7 +73,7 @@ export default function Partners() {
             {certifications.map((cert, index) => (
               <div
                 key={index}
-                className="flex items-center gap-3 p-4 rounded-xl bg-gradient-to-r from-green-500/10 to-emerald-500/10 border border-green-500/20"
+                className="flex items-center gap-3 p-4 rounded-xl bg-linear-to-r from-green-500/10 to-emerald-500/10 border border-green-500/20"
               >
                 <Award className="h-8 w-8 text-green-500 shrink-0" />
                 <div>

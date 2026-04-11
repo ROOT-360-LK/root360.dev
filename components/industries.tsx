@@ -98,9 +98,9 @@ export default function Industries() {
               key={index} 
               className="group relative overflow-hidden transition-all hover:shadow-xl hover:-translate-y-1 cursor-pointer"
             >
-              <div className={`absolute inset-0 bg-gradient-to-br ${industry.color} opacity-0 group-hover:opacity-5 transition-opacity`} />
+              <div className={`absolute inset-0 bg-linear-to-br ${industry.color} opacity-0 group-hover:opacity-5 transition-opacity`} />
               <CardHeader>
-                <div className={`flex h-12 w-12 items-center justify-center rounded-lg bg-gradient-to-r ${industry.color} mb-3`}>
+                <div className={`flex h-12 w-12 items-center justify-center rounded-lg bg-linear-to-r ${industry.color} mb-3`}>
                   <industry.icon className="h-6 w-6 text-white" />
                 </div>
                 <CardTitle className="text-lg">{industry.title}</CardTitle>

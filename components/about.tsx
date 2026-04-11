@@ -25,10 +25,10 @@ const values = [
 ];
 
 const stats = [
-  { value: "15+", label: "Years of Excellence", icon: Award },
-  { value: "500+", label: "Projects Delivered", icon: Target },
-  { value: "200+", label: "Global Clients", icon: Globe2 },
-  { value: "50+", label: "Expert Team Members", icon: Users },
+  { value: "5+", label: "Years of Excellence", icon: Award },
+  { value: "10+", label: "Projects Delivered", icon: Target },
+  { value: "2+", label: "Global Clients", icon: Globe2 },
+  { value: "10+", label: "Expert Team Members", icon: Users },
 ];
 
 export default function About() {
@@ -44,7 +44,7 @@ export default function About() {
             Empowering Digital Transformation
           </h2>
           <p className="mx-auto max-w-3xl text-lg text-zinc-600 dark:text-zinc-400">
-            For over 15 years, ROOT 360 has been at the forefront of technology innovation, 
+            For over 5 years, ROOT 360 has been at the forefront of technology innovation, 
             helping businesses worldwide navigate their digital transformation journey with 
             confidence and success.
           </p>
