@@ -211,7 +211,7 @@ export default function Footer() {
             </p>
             <div className="flex items-center space-x-6">
               <span className="text-zinc-500 text-sm">
-                Services on any platform
+                Software on any platform
               </span>
               <div className="flex items-center space-x-4 text-zinc-400 text-xs">
                 <span>AWS</span>
