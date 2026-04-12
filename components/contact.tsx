@@ -342,7 +342,7 @@ export default function Contact() {
                     )}
                   </Button>
 
-                  <p className="text-xs text-zinc-500 text-center">
+                  {/* <p className="text-xs text-zinc-500 text-center">
                     By submitting this form, you agree to our{" "}
                     <a href="#" className="underline hover:text-green-500">
                       Privacy Policy
@@ -352,7 +352,7 @@ export default function Contact() {
                       Terms of Service
                     </a>
                     .
-                  </p>
+                  </p> */}
                 </form>
               )}
             </CardContent>

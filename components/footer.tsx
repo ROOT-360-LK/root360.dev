@@ -31,7 +31,7 @@ const footerLinks = {
     { name: "About Us", href: "#about" },
     { name: "Case Studies", href: "#case-studies" },
     { name: "Careers", href: "#careers" },
-    { name: "Blog", href: "#blog" },
+    // { name: "Blog", href: "#blog" },
     { name: "Contact", href: "#contact" },
     { name: "Partners", href: "#partners" },
   ],
@@ -67,7 +67,7 @@ export default function Footer() {
               <input
                 type="email"
                 placeholder="Enter your email"
-                className="px-4 py-3 rounded-lg bg-zinc-800 border border-zinc-700 text-white placeholder:text-zinc-500 focus:outline-none focus:ring-2 focus:ring-green-500 min-w-62.5"
+                className="px-4 rounded-lg bg-zinc-800 border border-zinc-700 text-white placeholder:text-zinc-500 focus:outline-none focus:ring-2 focus:ring-green-500 min-w-62.5"
               />
               <Button className="bg-linear-to-r from-green-500 to-emerald-600 hover:from-green-600 hover:to-emerald-700">
                 Subscribe
@@ -184,7 +184,7 @@ export default function Footer() {
           </div>
 
           {/* Legal */}
-          <div>
+          {/* <div>
             <h4 className="font-semibold text-white mb-4">Legal</h4>
             <ul className="space-y-3">
               {footerLinks.legal.map((link) => (
@@ -198,7 +198,7 @@ export default function Footer() {
                 </li>
               ))}
             </ul>
-          </div>
+          </div> */}
         </div>
       </div>
 
@@ -211,7 +211,7 @@ export default function Footer() {
             </p>
             <div className="flex items-center space-x-6">
               <span className="text-zinc-500 text-sm">
-                Certified Partner:
+                Services on any platform
               </span>
               <div className="flex items-center space-x-4 text-zinc-400 text-xs">
                 <span>AWS</span>
